@@ -27,7 +27,9 @@ print("\n--What are the chords related to the numbers below?")
 print("--If there isn't a 4th chord, press enter\n")
 print(*question,"\n")
 
-chord1 = input("1st chord?>")
-chord2 = input("2nd chord?>")
-chord3 = input("3rd chord?>")
-chord4 = input("4th chord?>")
+chord1 = input("1st chord?> ")
+chord2 = input("2nd chord?> ")
+chord3 = input("3rd chord?> ")
+chord4 = input("4th chord?> ")
+
+print("Is this correct?:", chord1, chord2, chord3, chord4)
