@@ -1,3 +1,4 @@
+#List of chords in a key based on the major scale
 major_scale = [
     ['A', 'Bm', 'C#m','D', 'E', 'F#m', 'G#dim'],
     ['Bb', 'Cm', 'Dm', 'Eb', 'F', 'Gm', 'Adim'],
@@ -22,4 +23,11 @@ key = major_scale[x][0]
 interval = random.sample(range(1,7), y)
 question = key, *interval
 
-print(*question)
+print("\n--What are the chords related to the numbers below?")
+print("--If there isn't a 4th chord, press enter\n")
+print(*question,"\n")
+
+chord1 = input("1st chord?>")
+chord2 = input("2nd chord?>")
+chord3 = input("3rd chord?>")
+chord4 = input("4th chord?>")
