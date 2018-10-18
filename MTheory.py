@@ -16,7 +16,7 @@ major_scale = [
 import random
 
 x = random.randint(0,11)
-y = random.randint(3,5)
+y = random.randint(3,4)
 
 key = major_scale[x][0]
 interval = random.sample(range(1,7), y)
